@@ -11,7 +11,7 @@ const tips = (info) => {
 const oneLevel = tips('please input chapter(eg:1-3)');
 const twoLevel = tips('please input example title(eg:简单矩形的绘制)');
 let CanvasSize = tips('please input canvas default size(default 600 * 600)');
-console.log(CanvasSize);
+
 if(CanvasSize.length === 0) {
   CanvasSize = [600, 600];
 } else {
