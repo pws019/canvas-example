@@ -1,2 +1,2 @@
 var canvas  = document.getElementById('canvas'),
-     context =  canvas.getContext('2d');
+  context =  canvas.getContext('2d');
