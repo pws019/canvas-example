@@ -58,3 +58,11 @@ context.arc(820, 550, 60, 0, Math.PI * 3/2);
 context.closePath();
 context.stroke();
 context.fill();
+
+// 第二次没有beginPath会导致第一次路径重绘
+context.beginPath();
+context.rect(10, 10, 100, 100);
+context.stroke();
+
+context.rect(50, 50, 100, 100);
+context.stroke();
