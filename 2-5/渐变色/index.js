@@ -32,3 +32,7 @@ drawCanvas('canvas3', (context, canvas)=>{
 drawCanvas('canvas4', (context, canvas)=>{
   return context.createLinearGradient(0, 0, 0, canvas.height/2);
 })
+
+drawCanvas('canvas5', (context, canvas)=>{
+  return context.createRadialGradient(canvas.width/2, canvas.height, 10, canvas.width/2, 0, 100);
+})
